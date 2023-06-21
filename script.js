@@ -1,5 +1,3 @@
-
-
 let username = document.getElementById("username");
 let password = document.getElementById("password");
 let access = 1;
@@ -7,6 +5,7 @@ let access = 1;
 function validateform() {
     if (username.value == "") {
         document.getElementById("userError").innerHTML = "Username is Empty";
+        alert("Enter the User Name and password")
         access = 0;
     }
     else if (username.value.length < 3) {

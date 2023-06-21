@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 <body>
     <!DOCTYPE html>
@@ -21,13 +22,14 @@
 <body>
 
     <div id="form-container">
+        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
         <h1>Login Here</h1>
         <form action="" onsubmit="return validateform()">
             <input type="Text" placeholder="Username" id="username"><br>
             <p id="userError" class="error"></p>
             <input type="Password" placeholder="Password" id="password"><br>
             <p id="passwordError" class="error"></p>
-            <input type="Submit" placeholder="Submit" id="submit">
+            <input type="Submit" onclick='alert("You are Logged in")' id="submit">
         </form>
     </div>
 

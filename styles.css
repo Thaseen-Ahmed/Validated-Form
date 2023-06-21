@@ -1,5 +1,7 @@
 body {
-    background-color: #059669;
+    /* background-color: #059669; */
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,73,64,1) 35%, rgba(0,212,255,1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,17 +12,24 @@ body {
     /* background-color: bisque;
             padding: 50px;
             text-align: center; */
-    background-color: bisque;
+    background-color: black;
     padding: 50px;
     height: 45vh;
-    width: 50%;
+    color: antiquewhite;
+   
+    box-shadow: 2px 5px 25px 20px #dc2626;
+
+    width: 30%;
     text-align: center;
 }
 
 h1 {
     margin: 0px 0px 10px 0px;
     font-size: 2.5rem;
-    color:;
+    color:antiquewhite;
+    text-shadow: green;
+    font-family: 'Lobster', cursive;
+
 }
 
 input {
@@ -28,9 +37,10 @@ input {
             margin: 10px 0px;
             padding: 10px; */
 
-    width: 584px;
-    height: 5vh;
+    width: 280px;
+    height: 3vh;
     margin: 10px 0px;
+    font-size: 1.3rem;
     padding: 10px;
 
 }
@@ -40,11 +50,12 @@ input[type="submit"] {
             background-color:green;
             border: 0px;
             color: beige; */
-    width: 222px;
+    width: 142px;
     background-color: green;
     border: 0px;
-    height: 8vh;
-    font-size: 30px;
+    height: 6vh;
+    box-shadow: 2px 5px 25px 20px #082f49;
+    font-size: 25px;
     color: beige;
 }
 
