@@ -31,7 +31,10 @@ h1 {
     font-family: 'Lobster', cursive;
 
 }
-
+i{
+    column-rule: wheat;
+    font-size: 20px;
+}
 input {
     /* width: 200px;
             margin: 10px 0px;
